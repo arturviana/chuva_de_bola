@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jogo do artur</title>
+	<!-- css para adicionar estilos -->
+	<style type="text/css">
+		canvas {
+
+			border: 2px solid #000000;
+		}
+
+	</style>
+
+	<!-- código javascript -->
+	<script type="text/javascript">
+
+		function iniciar(){
+			var i = 0;
+			while (i < 100) {
+				i = i + 1;
+				alert(i);
+			}
+			
+
+		}
+	</script>
+
+
+</head>
+<body onload="iniciar()">
+	<h1>meu jogo</h1>
+	<canvas id="canvas" width="600" height="500">
+		
+
+	</canvas>
+</body>
+</html>
